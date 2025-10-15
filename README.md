@@ -1,6 +1,15 @@
 # Visual Product Matcher
 
-A web application that helps users find visually similar products based on uploaded images.
+## - Approach
+
+Built a full-stack web application using Flask backend and vanilla JavaScript frontend. The system supports dual image input methods (file upload + URL) with a mobile-responsive interface designed for optimal user experience across all devices.
+
+Implemented a structured product database with 50+ items featuring comprehensive metadata including categories, prices, and visual attributes. The architecture follows clean separation of concerns with RESTful API design between frontend and backend. Features include real-time image preview, similarity scoring, and dynamic filtering by similarity threshold.
+
+Focused on production-quality code with comprehensive error handling, loading states, and user feedback throughout the interface. The similarity matching system uses simulated scoring to demonstrate the complete product matching workflow, structured to easily integrate with computer vision APIs in production.
+
+Technologies: Python, Flask, JavaScript, HTML5, CSS3
+Key Features: Image upload, similarity search, real-time filtering, mobile responsiveness, error handling
 
 ## Features
 
