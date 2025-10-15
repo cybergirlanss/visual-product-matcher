@@ -4,12 +4,12 @@ A web application that helps users find visually similar products based on uploa
 
 ## Features
 
-- 📁 Image file upload
-- 🔗 Image URL input  
-- 📱 Mobile responsive design
-- 🎯 Similarity scoring
-- 🔍 Result filtering
-- ⚡ Real-time preview
+- Image file upload
+- Image URL input  
+- Mobile responsive design
+- Similarity scoring
+- Result filtering
+- Real-time preview
 
 ## Live Demo
 
@@ -82,4 +82,3 @@ visual-product-matcher/
 - Add user accounts and search history
 - Implement real product database
 - Deploy to cloud hosting
-```
