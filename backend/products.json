@@ -1,0 +1,452 @@
+[
+    {
+        "id": 1,
+        "name": "Blue Summer Dress",
+        "category": "Clothing",
+        "price": "$45.99",
+        "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=300",
+        "color": "blue",
+        "type": "dress"
+    },
+    {
+        "id": 2,
+        "name": "Red Running Shoes",
+        "category": "Footwear", 
+        "price": "$79.99",
+        "image_url": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=300",
+        "color": "red",
+        "type": "shoes"
+    },
+    {
+        "id": 3,
+        "name": "Black Handbag",
+        "category": "Accessories",
+        "price": "$129.99",
+        "image_url": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=300",
+        "color": "black",
+        "type": "bag"
+    },
+    {
+        "id": 4,
+        "name": "White Sneakers",
+        "category": "Footwear",
+        "price": "$89.99",
+        "image_url": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=300",
+        "color": "white", 
+        "type": "shoes"
+    },
+    {
+        "id": 5,
+        "name": "Green Backpack",
+        "category": "Accessories",
+        "price": "$59.99",
+        "image_url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=300",
+        "color": "green",
+        "type": "bag"
+    },
+    {
+        "id": 6,
+        "name": "Yellow T-Shirt",
+        "category": "Clothing",
+        "price": "$24.99",
+        "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=300",
+        "color": "yellow",
+        "type": "top"
+    },
+    {
+        "id": 7,
+        "name": "Black Jeans",
+        "category": "Clothing",
+        "price": "$49.99",
+        "image_url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=300",
+        "color": "black",
+        "type": "pants"
+    },
+    {
+        "id": 8,
+        "name": "Blue Jacket",
+        "category": "Clothing",
+        "price": "$89.99",
+        "image_url": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=300",
+        "color": "blue",
+        "type": "jacket"
+    },
+    {
+        "id": 9,
+        "name": "Red Dress",
+        "category": "Clothing",
+        "price": "$65.99",
+        "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=300",
+        "color": "red",
+        "type": "dress"
+    },
+    {
+        "id": 10,
+        "name": "Brown Boots",
+        "category": "Footwear",
+        "price": "$99.99",
+        "image_url": "https://images.unsplash.com/photo-1542280756-74b2f55e73ab?w=300",
+        "color": "brown",
+        "type": "shoes"
+    },
+    {
+        "id": 11,
+        "name": "Striped Polo Shirt",
+        "category": "Clothing",
+        "price": "$34.99",
+        "image_url": "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?w=300",
+        "color": "multicolor",
+        "type": "top"
+    },
+    {
+        "id": 12,
+        "name": "Leather Wallet",
+        "category": "Accessories",
+        "price": "$39.99",
+        "image_url": "https://images.unsplash.com/photo-1627123424574-724758594e93?w=300",
+        "color": "brown",
+        "type": "wallet"
+    },
+    {
+        "id": 13,
+        "name": "Sports Watch",
+        "category": "Accessories",
+        "price": "$149.99",
+        "image_url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=300",
+        "color": "black",
+        "type": "watch"
+    },
+    {
+        "id": 14,
+        "name": "Denim Jacket",
+        "category": "Clothing",
+        "price": "$75.99",
+        "image_url": "https://images.unsplash.com/photo-1551028711-7db964f25e5d?w=300",
+        "color": "blue",
+        "type": "jacket"
+    },
+    {
+        "id": 15,
+        "name": "Running Shorts",
+        "category": "Clothing",
+        "price": "$29.99",
+        "image_url": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=300",
+        "color": "gray",
+        "type": "pants"
+    },
+    {
+        "id": 16,
+        "name": "Baseball Cap",
+        "category": "Accessories",
+        "price": "$24.99",
+        "image_url": "https://images.unsplash.com/photo-1588850561407-ed78c282e89b?w=300",
+        "color": "black",
+        "type": "hat"
+    },
+    {
+        "id": 17,
+        "name": "Winter Scarf",
+        "category": "Accessories",
+        "price": "$35.99",
+        "image_url": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5b?w=300",
+        "color": "red",
+        "type": "scarf"
+    },
+    {
+        "id": 18,
+        "name": "Formal Shoes",
+        "category": "Footwear",
+        "price": "$119.99",
+        "image_url": "https://images.unsplash.com/photo-1560769684-55015cee73e8?w=300",
+        "color": "black",
+        "type": "shoes"
+    },
+    {
+        "id": 19,
+        "name": "Graphic T-Shirt",
+        "category": "Clothing",
+        "price": "$27.99",
+        "image_url": "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=300",
+        "color": "white",
+        "type": "top"
+    },
+    {
+        "id": 20,
+        "name": "Yoga Pants",
+        "category": "Clothing",
+        "price": "$42.99",
+        "image_url": "https://images.unsplash.com/photo-1506629905607-e9de30cef73d?w=300",
+        "color": "black",
+        "type": "pants"
+    },
+    {
+        "id": 21,
+        "name": "Sunglasses",
+        "category": "Accessories",
+        "price": "$89.99",
+        "image_url": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=300",
+        "color": "black",
+        "type": "glasses"
+    },
+    {
+        "id": 22,
+        "name": "Hoodie",
+        "category": "Clothing",
+        "price": "$54.99",
+        "image_url": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=300",
+        "color": "gray",
+        "type": "sweater"
+    },
+    {
+        "id": 23,
+        "name": "Crossbody Bag",
+        "category": "Accessories",
+        "price": "$67.99",
+        "image_url": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=300",
+        "color": "brown",
+        "type": "bag"
+    },
+    {
+        "id": 24,
+        "name": "Sandals",
+        "category": "Footwear",
+        "price": "$39.99",
+        "image_url": "https://images.unsplash.com/photo-1542280756-74b2f55e73ab?w=300",
+        "color": "brown",
+        "type": "shoes"
+    },
+    {
+        "id": 25,
+        "name": "Blazer",
+        "category": "Clothing",
+        "price": "$129.99",
+        "image_url": "https://images.unsplash.com/photo-1594938374223-a=1234",
+        "color": "navy",
+        "type": "jacket"
+    },
+    {
+        "id": 26,
+        "name": "Beanie",
+        "category": "Accessories",
+        "price": "$19.99",
+        "image_url": "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?w=300",
+        "color": "gray",
+        "type": "hat"
+    },
+    {
+        "id": 27,
+        "name": "Leather Belt",
+        "category": "Accessories",
+        "price": "$45.99",
+        "image_url": "https://images.unsplash.com/photo-1601663873963-00e6fe3d5f5a?w=300",
+        "color": "brown",
+        "type": "belt"
+    },
+    {
+        "id": 28,
+        "name": "High Heels",
+        "category": "Footwear",
+        "price": "$89.99",
+        "image_url": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=300",
+        "color": "black",
+        "type": "shoes"
+    },
+    {
+        "id": 29,
+        "name": "Winter Coat",
+        "category": "Clothing",
+        "price": "$159.99",
+        "image_url": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=300",
+        "color": "navy",
+        "type": "jacket"
+    },
+    {
+        "id": 30,
+        "name": "Backpack",
+        "category": "Accessories",
+        "price": "$79.99",
+        "image_url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=300",
+        "color": "black",
+        "type": "bag"
+    },
+    {
+        "id": 31,
+        "name": "Running Jacket",
+        "category": "Clothing",
+        "price": "$64.99",
+        "image_url": "https://images.unsplash.com/photo-1551028711-7db964f25e5d?w=300",
+        "color": "green",
+        "type": "jacket"
+    },
+    {
+        "id": 32,
+        "name": "Casual Loafers",
+        "category": "Footwear",
+        "price": "$79.99",
+        "image_url": "https://images.unsplash.com/photo-1560769684-55015cee73e8?w=300",
+        "color": "brown",
+        "type": "shoes"
+    },
+    {
+        "id": 33,
+        "name": "Knit Sweater",
+        "category": "Clothing",
+        "price": "$68.99",
+        "image_url": "https://images.unsplash.com/photo-1434389677669-e08b4cac3105?w=300",
+        "color": "cream",
+        "type": "sweater"
+    },
+    {
+        "id": 34,
+        "name": "Sports Bag",
+        "category": "Accessories",
+        "price": "$49.99",
+        "image_url": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=300",
+        "color": "blue",
+        "type": "bag"
+    },
+    {
+        "id": 35,
+        "name": "Rain Boots",
+        "category": "Footwear",
+        "price": "$59.99",
+        "image_url": "https://images.unsplash.com/photo-1542280756-74b2f55e73ab?w=300",
+        "color": "yellow",
+        "type": "shoes"
+    },
+    {
+        "id": 36,
+        "name": "Silk Scarf",
+        "category": "Accessories",
+        "price": "$42.99",
+        "image_url": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5b?w=300",
+        "color": "pink",
+        "type": "scarf"
+    },
+    {
+        "id": 37,
+        "name": "Cargo Pants",
+        "category": "Clothing",
+        "price": "$52.99",
+        "image_url": "https://images.unsplash.com/photo-1542272604-787c3835535d?w=300",
+        "color": "green",
+        "type": "pants"
+    },
+    {
+        "id": 38,
+        "name": "Dress Watch",
+        "category": "Accessories",
+        "price": "$199.99",
+        "image_url": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=300",
+        "color": "silver",
+        "type": "watch"
+    },
+    {
+        "id": 39,
+        "name": "Winter Gloves",
+        "category": "Accessories",
+        "price": "$29.99",
+        "image_url": "https://images.unsplash.com/photo-1576871337632-b9aef4c17ab9?w=300",
+        "color": "black",
+        "type": "gloves"
+    },
+    {
+        "id": 40,
+        "name": "Evening Gown",
+        "category": "Clothing",
+        "price": "$189.99",
+        "image_url": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=300",
+        "color": "black",
+        "type": "dress"
+    },
+    {
+        "id": 41,
+        "name": "Canvas Shoes",
+        "category": "Footwear",
+        "price": "$44.99",
+        "image_url": "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?w=300",
+        "color": "white",
+        "type": "shoes"
+    },
+    {
+        "id": 42,
+        "name": "Leather Jacket",
+        "category": "Clothing",
+        "price": "$249.99",
+        "image_url": "https://images.unsplash.com/photo-1551028711-7db964f25e5d?w=300",
+        "color": "black",
+        "type": "jacket"
+    },
+    {
+        "id": 43,
+        "name": "Tote Bag",
+        "category": "Accessories",
+        "price": "$39.99",
+        "image_url": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=300",
+        "color": "beige",
+        "type": "bag"
+    },
+    {
+        "id": 44,
+        "name": "Swim Trunks",
+        "category": "Clothing",
+        "price": "$34.99",
+        "image_url": "https://images.unsplash.com/photo-1506629905607-e9de30cef73d?w=300",
+        "color": "blue",
+        "type": "pants"
+    },
+    {
+        "id": 45,
+        "name": "Aviator Sunglasses",
+        "category": "Accessories",
+        "price": "$129.99",
+        "image_url": "https://images.unsplash.com/photo-1572635196237-14b3f281503f?w=300",
+        "color": "gold",
+        "type": "glasses"
+    },
+    {
+        "id": 46,
+        "name": "Wool Socks",
+        "category": "Clothing",
+        "price": "$14.99",
+        "image_url": "https://images.unsplash.com/photo-1586359743855-59a8e0c3c5a6?w=300",
+        "color": "gray",
+        "type": "socks"
+    },
+    {
+        "id": 47,
+        "name": "Platform Shoes",
+        "category": "Footwear",
+        "price": "$89.99",
+        "image_url": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=300",
+        "color": "white",
+        "type": "shoes"
+    },
+    {
+        "id": 48,
+        "name": "Denim Shirt",
+        "category": "Clothing",
+        "price": "$49.99",
+        "image_url": "https://images.unsplash.com/photo-1586790170083-2f9ceadc732d?w=300",
+        "color": "blue",
+        "type": "top"
+    },
+    {
+        "id": 49,
+        "name": "Evening Clutch",
+        "category": "Accessories",
+        "price": "$79.99",
+        "image_url": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=300",
+        "color": "gold",
+        "type": "bag"
+    },
+    {
+        "id": 50,
+        "name": "Hiking Boots",
+        "category": "Footwear",
+        "price": "$129.99",
+        "image_url": "https://images.unsplash.com/photo-1542280756-74b2f55e73ab?w=300",
+        "color": "brown",
+        "type": "shoes"
+    }
+]

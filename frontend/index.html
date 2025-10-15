@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visual Product Matcher</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔍 Visual Product Matcher</h1>
+            <p>Upload an image or paste a URL to find similar products</p>
+        </header>
+
+        <main>
+            <!-- Upload Section -->
+            <section class="upload-section">
+                <div class="upload-options">
+                    <!-- File Upload -->
+                    <div class="upload-option">
+                        <h3>📁 Upload Image</h3>
+                        <div class="file-upload-area" id="fileUploadArea">
+                            <input type="file" id="imageUpload" accept="image/*" hidden>
+                            <div class="upload-placeholder">
+                                <span class="upload-icon">📸</span>
+                                <p>Click to choose an image</p>
+                                <small>Supports JPG, PNG, WebP</small>
+                            </div>
+                            <div class="upload-preview hidden">
+                                <img id="uploadPreview" src="" alt="Preview">
+                                <button type="button" class="change-btn" onclick="clearFileUpload()">Change</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- OR Separator -->
+                    <div class="or-separator">
+                        <span>OR</span>
+                    </div>
+
+                    <!-- URL Input -->
+                    <div class="upload-option">
+                        <h3>🔗 Image URL</h3>
+                        <div class="url-input-area">
+                            <input type="text" id="imageUrl" placeholder="Paste image URL here...">
+                            <div class="url-preview hidden">
+                                <img id="urlPreview" src="" alt="URL Preview">
+                                <button type="button" class="change-btn" onclick="clearUrlInput()">Change</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Search Button -->
+                <button class="search-btn" id="searchBtn" onclick="searchSimilarProducts()" disabled>
+                    Find Similar Products
+                </button>
+            </section>
+
+            <!-- Loading State -->
+            <section class="loading-section hidden" id="loadingSection">
+                <div class="loading-spinner"></div>
+                <p>Analyzing your image and finding similar products...</p>
+            </section>
+
+            <!-- Error Message -->
+            <section class="error-section hidden" id="errorSection">
+                <div class="error-message">
+                    <span class="error-icon">⚠️</span>
+                    <p id="errorText"></p>
+                    <button class="retry-btn" onclick="hideError()">Try Again</button>
+                </div>
+            </section>
+
+            <!-- Results Section -->
+            <section class="results-section hidden" id="resultsSection">
+                <div class="results-header">
+                    <h2>Similar Products Found</h2>
+                    <div class="results-info">
+                        <span id="resultsCount">6 products</span>
+                        <div class="filter-options">
+                            <label>
+                                <input type="checkbox" id="filterHighSimilarity" checked onchange="filterResults()">
+                                High Similarity Only
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Uploaded Image Preview -->
+                <div class="uploaded-image-preview">
+                    <h3>Your Image:</h3>
+                    <div id="originalImageContainer"></div>
+                </div>
+
+                <!-- Products Grid -->
+                <div class="products-grid" id="productsGrid"></div>
+
+                <!-- No Results -->
+                <div class="no-results hidden" id="noResults">
+                    <p>No similar products found. Try a different image.</p>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Visual Product Matcher - Built with Flask & JavaScript</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
