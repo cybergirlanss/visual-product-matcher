@@ -1,6 +1,6 @@
 # Visual Product Matcher
 
-## - Approach
+## Approach
 
 Built a full-stack web application using Flask backend and vanilla JavaScript frontend. The system supports dual image input methods (file upload + URL) with a mobile-responsive interface designed for optimal user experience across all devices.
 
